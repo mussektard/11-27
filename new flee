@@ -1,0 +1,86 @@
+# def print_ODD():
+#     for i in range(1,101):
+#         if i % 2 == 0:
+#             continue
+#         print(i)
+#
+#
+# for _ in range(100):
+#     print_ODD()
+# def plus1(a):
+#     result = a + 1
+#     return result
+#
+# x = 10
+# answer = plus1(x)
+# print(answer)
+# def myappend(_list, value):
+#     temp = [value]
+#     _list += temp
+#     return _list
+# a = [1,2,3]
+# a = myappend(a,30)
+# print(a)
+# def test(a,b,c):
+#     return a + b + c
+#
+# x = 1
+# y = 2
+# z = 3
+# result = test(x,y,z)
+# print(result)
+# def return_A():
+#     return "A"
+#
+# print(return_A())
+# a = 'Hello'
+# print(a.replace('H','D'))
+# def myreplace(string, old, new):
+#     result = ''
+#     for i in string:
+#         if i == old:
+#             result += new
+#         else:
+#             result += i
+#     return result
+#
+# print(myreplace(a,'H','D'))
+# def solution(num1, num2):
+#         answer = 0
+#         result = num1 * num2
+#         answer += result
+#         return answer
+#
+# n1 = 3
+# n2 = 4
+# print(solution(n1,n2))
+# def solution(num1, num2):
+#     answer = 0
+#     result = num1 - num2
+#     answer += result
+#     return answer
+# n1 = 2
+# n2 = 3
+# print(solution(n1,n2))
+# def solution(num1,num2):
+#     answer = 0
+#     if num1 == num2:
+#         result = 1
+#     else:
+#         result = -1
+#     answer += result
+#     return answer
+# n1 = 11
+# n2 = 11
+# print(solution(n1,n2))
+# def solution(sides):
+#     sides.sort()
+#     answer = 0
+#     if sides[0]+sides[1] <= sides[2]:
+#         result = 2
+#     else:
+#         result = 1
+#     answer += result
+#     return answer
+# sides = [3,6,2]
+# print(solution(sides))
